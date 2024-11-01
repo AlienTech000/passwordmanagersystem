@@ -1,0 +1,82 @@
+# Password Manager User Guide
+
+Welcome to the Password Manager! This application is designed to help you securely store and manage your passwords. Below is a detailed guide on how to use the application and explanations of each feature.
+
+## Table of Contents
+1. [Getting Started](#getting-started)
+2. [Setting a Master Password](#setting-a-master-password)
+3. [Adding a Password](#adding-a-password)
+4. [Retrieving a Password](#retrieving-a-password)
+5. [Deleting a Password](#deleting-a-password)
+6. [Generating a Password](#generating-a-password)
+7. [Backing Up Passwords](#backing-up-passwords)
+8. [Restoring Passwords](#restoring-passwords)
+9. [Checking Password Strength](#checking-password-strength)
+10. [Contact and Support](#contact-and-support)
+
+## Getting Started
+1. **Install Python**: Ensure you have Python installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
+2. **Run the Application**: 
+   - Save the provided Python code as `password_manager_gui.py`.
+   - Open your command prompt or terminal.
+   - Navigate to the directory where you saved the file.
+   - Run the application using:
+     ```bash
+     python password_manager_gui.py
+     ```
+
+## Setting a Master Password
+- **What It Does**: The master password is your main key to access the password manager. It encrypts and protects your stored passwords.
+- **How to Use**: 
+  - Upon first launching the application, you will be prompted to set a master password.
+  - Enter your desired password. This will be hashed and stored securely.
+
+## Adding a Password
+- **What It Does**: Allows you to store new account credentials in the password manager.
+- **How to Use**: 
+  - Enter the **Account Name** (e.g., "Facebook").
+  - You can either enter a **Password** manually or click on "Generate Random Password" to create one automatically.
+  - Click **"Add Password"** to save the credentials.
+
+## Retrieving a Password
+- **What It Does**: Fetches and displays the password for a selected account.
+- **How to Use**: 
+  - Select the account from the list displayed in the application.
+  - Click **"Retrieve Password"**. The password will be shown in a popup message.
+
+## Deleting a Password
+- **What It Does**: Removes stored credentials for a specific account from the password manager.
+- **How to Use**: 
+  - Select the account you wish to delete from the list.
+  - Click **"Delete Password"**. A confirmation message will appear indicating the deletion.
+
+## Generating a Password
+- **What It Does**: Creates a random and secure password based on the specified length.
+- **How to Use**: 
+  - Click on **"Generate Random Password"**.
+  - You will be prompted to enter the desired password length. The default length is 12 characters.
+  - The generated password will automatically fill the password entry field.
+
+## Backing Up Passwords
+- **What It Does**: Creates a backup file of your stored passwords to prevent data loss.
+- **How to Use**: 
+  - Click the **"Backup"** button. A confirmation message will indicate that the backup has been created successfully.
+
+## Restoring Passwords
+- **What It Does**: Restores passwords from the backup file if needed.
+- **How to Use**: 
+  - Click the **"Restore"** button. A confirmation message will indicate that the passwords have been restored successfully from the backup.
+
+## Checking Password Strength
+- **What It Does**: Evaluates the strength of passwords when adding new ones.
+- **How It Works**: 
+  - The application checks if the password meets the following criteria:
+    - At least 8 characters long.
+    - Contains uppercase and lowercase letters.
+    - Includes at least one numeric digit.
+    - Contains special characters (e.g., @, #, $, etc.).
+  - If the password does not meet these requirements, an error message will be displayed.
+
+## Contact and Support
+- **For Issues and Inquiries**: If you have any questions or encounter problems, please reach out to the developer:
+  - Email: [your_email@example.com]
